@@ -21,7 +21,6 @@ The following steps describe what this script does:
    
 5. STANDING  
    6. LAYING  
-
 	
 6. Combine training and test datasets into one (30 subjects in total)
 
