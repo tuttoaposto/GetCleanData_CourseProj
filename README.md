@@ -1,7 +1,7 @@
-#[README for run_analysis.R]
+#README for run_analysis.R
 
 This program summarizes human activity measurements collected by Samsung Galaxy S smartphone	
-obtained here: (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).	
+obtained ([here]) (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)	
 
 The following steps describe what this script does:	
 
@@ -14,11 +14,9 @@ The following steps describe what this script does:
 4. Label measurement variables (561 in total) per each dataset
 
 5. Label each activity:
-    1. WALKING, 
-2. WALKING_UPSTAIRS, 3. WALKING_DOWNSTAIRS, 
-4. SITTING, 
-5. STANDING, 
-6. LAYING	
+   i. WALKING, ii. WALKING_UPSTAIRS, iii. WALKING_DOWNSTAIRS, 
+iv. SITTING, 
+v. STANDING, vi. LAYING		
 
 	
 6. Combine training and test datasets into one (30 subjects in total)
@@ -30,4 +28,4 @@ The following steps describe what this script does:
 
 9. Output the summarized dataset in step 7 to Avg.txt 
 	
-## For description of each variable in Avg.txt, refer to CodeBook.md
+### For description of each variable in Avg.txt, refer to CodeBook.md
