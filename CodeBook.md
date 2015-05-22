@@ -2,7 +2,7 @@
 ## All measurements are normalized and bounded within [-1,1].
 
 
-Column	Variable name		 Label
+Column	Variable name		 *Label*
 1	activity_ID 	 	 'Activity ID (1 to 6)'	
 2	activity 	 	 'Activity name'	
 3	ID 	 		 'Subject ID (1 to 30)'	
