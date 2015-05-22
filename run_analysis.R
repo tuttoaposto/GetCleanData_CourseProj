@@ -9,13 +9,13 @@ feat <- fread('features.txt')
 
 #-------------------------------------------------------------------------
 ##Read in training dataset
-system.time(tr <- read.table('./X_train.txt', col.names=feat$V2))
+system.time(tr <- read.table('X_train.txt', col.names=feat$V2))
 
 ##Read in training labels
-system.time(tr_lbl <- fread('./y_train.txt'))
+system.time(tr_lbl <- fread('y_train.txt'))
 
 ## Read in training dataset subject ID
-system.time(tr_subj <- read.table('./subject_train.txt', col.names='ID'))
+system.time(tr_subj <- read.table('subject_train.txt', col.names='ID'))
 
 ## Combine ID, activities, and training data together
 tr <- cbind(tr_subj, tr_lbl, tr)
@@ -43,13 +43,13 @@ names(tr)[c(1:5, 561:564)]
 #-------------------------------------------------------------------------
 
 ##Read in testing dataset
-system.time(ts <- read.table('./X_test.txt', col.names=feat$V2))
+system.time(ts <- read.table('X_test.txt', col.names=feat$V2))
 
 ##Read in testing labels
-system.time(ts_lbl <- fread('./y_test.txt'))
+system.time(ts_lbl <- fread('y_test.txt'))
 
 ## Read in testing dataset subject ID
-system.time(ts_subj <- read.table('./subject_test.txt', col.names='ID'))
+system.time(ts_subj <- read.table('subject_test.txt', col.names='ID'))
 
 ## Combine ID, activities, testing data together
 ts <- cbind(ts_subj, ts_lbl, ts)
