@@ -1,5 +1,5 @@
 #Code book for 69 variables in Avg.txt.
-## All measurements are normalized and bounded within [-1,1].
+### All measurement variables (#4 to #69) are normalized and bounded within [-1,1].
 
 
 **Column** | **Variable name** | **Label**
