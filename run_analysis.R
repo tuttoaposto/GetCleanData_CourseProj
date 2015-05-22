@@ -80,10 +80,15 @@ all <- arrange(all, ID, activity_ID)
 dim(all)	#10299 * 564
 head(all[1:5], 100)
 
+#-------------------------------------------------------------
+
 ## Select vars that say mean() and std()
 ### mean() and std() become mean.., std..
-### double backslashes to escape ..
+### double backslashes to escape the double periods
 meanstd <- all[, grepl('(mean|std)\\.{2}|ID|activity_ID|activity', names(all))]  
+
+##Remove double/triple periods after 'mean', 'std' to make variable names more readable
+names(meanstd) <- sub('\\.{2,3}','',names(meanstd))
 
 ## Get average of each column by subject and activity
 Avg <- aggregate(meanstd[,3:68], by=list(ID = meanstd$ID, activity_ID = meanstd$activity_ID), 
