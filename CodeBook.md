@@ -3,7 +3,7 @@
 > Only variables related to the mean and standard deviation of the original measurements (66 in total) are extracted to this file.
 > The extracted measurements are then summarized as an **average** value per activity and subject into 180 records (6 activities per 30 subjects).
 > E.g. variable 'tBodyAccMag.mean' refers to **average** of mean body acceleration magnitude in time domain per activity and subject.
-> All the original measurements are normalized and bounded within [-1,1].
+> All original measurements are normalized and bounded within [-1,1].
 
 The following table describes each variable in Avg.txt.
 
