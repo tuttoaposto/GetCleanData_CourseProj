@@ -16,10 +16,10 @@ The following steps describe what this script does:
 5. Label each activity:  
    1. WALKING  
    2. WALKING_UPSTAIRS  
-   3. WALKING_DOWNSTAIRS  	
+   3. WALKING_DOWNSTAIRS  
    4. SITTING  
    
-5. STANDING  	
+5. STANDING  
    6. LAYING  
 
 	
