@@ -14,12 +14,11 @@ The following steps describe what this script does:
 4. Label measurement variables (561 in total) per each dataset
 
 5. Label each activity:  
-    1. WALKING  
-    2. WALKING_UPSTAIRS  
-    3. WALKING_DOWNSTAIRS  
-    4. SITTING  	
-   
- 5. STANDING  
+    1. WALKING
+    2. WALKING_UPSTAIRS
+    3. WALKING_DOWNSTAIRS
+    4. SITTING
+    5. STANDING
     6. LAYING  
 	
 6. Combine training and test datasets into one (30 subjects in total)
