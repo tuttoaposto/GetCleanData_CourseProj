@@ -3,8 +3,8 @@
 
 
 Column	Variable name		 **Label**
-1	activity_ID 	 	 'Activity ID (1 to 6)'	
-2	activity 	 	 'Activity name'	
+1 activity_ID         'Activity ID (1 to 6)'	
+2 activity            'Activity name'	
 3	ID 	 		 'Subject ID (1 to 30)'	
 4	tBodyAcc.mean...X 	 'Mean of body acceleration signal (g) in time domain, X-axial'	
 5	tBodyAcc.mean...Y 	 'Mean of body acceleration signal (g) in time domain, Y-axial'	
