@@ -30,7 +30,7 @@ The following steps describe what this script does:
 9. Summarize the extracted dataset in step 6 with mean by subject and activity 
    (180 rows and 69 columns in total including activity labels)
 
-10. Output the summarized dataset in step 7 to Avg.txt 
+10. Output the summarized dataset in step 9 to Avg.txt 
 	
 ### For description of each variable in Avg.txt, refer to CodeBook.md
 
